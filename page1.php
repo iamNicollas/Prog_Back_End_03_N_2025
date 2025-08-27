@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programação Back-End - PHP</title>
+    <stylesheet" href="styles.css">
+    <title>Página 1 - PHP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,10 +18,10 @@
     </header>
 
     <main>
-        <h1>Testando php - 26/08/2026</h1>
+        <h1>Página 1</h1>
     <?php
-    echo "Comando pelo php novo";
-    ?> 
-    </main>   
+    echo "Olá Mundo!";
+    ?>
+    </main> 
 </body>
 </html>
