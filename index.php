@@ -12,12 +12,13 @@
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="page1.php">Página 1</a></li>
+                <li><a href="tela-login.php">Login</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Testando php - 26/08/2026</h1>
+        <h1 id="titulo">Testando php - </h1>
         <br/>
     <?php
     echo "Comando pelo php novo";
@@ -43,6 +44,19 @@
         content.style.display = "block";
       }, 500); // tempo igual à transição do CSS
     });
-  </script>
+
+  // Pega a data atual
+  const hoje = new Date();
+
+  // Formata para dd/mm/yyyy
+  const dia = String(hoje.getDate()).padStart(2, '0');
+  const mes = String(hoje.getMonth() + 1).padStart(2, '0'); // meses começam do 0
+  const ano = hoje.getFullYear();
+
+  const dataFormatada = `${dia}/${mes}/${ano}`;
+
+  // Coloca no H1
+  document.getElementById("titulo").textContent += dataFormatada;
+</script>
 </body>
 </html>

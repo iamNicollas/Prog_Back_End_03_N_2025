@@ -23,10 +23,10 @@
     <?php
     define("USER", "admin");
     $nome = "Laiza";
-    $dia = 2;
-    $nota = 8.5;
+    $do = "dona do coração do Ni";
+    $day = "até o infinito";
 
-    echo USER." - ".$nome." - ".$dia." - ".$nota;
+    echo USER." é  ".$nome." e, ".$do."  ".$day;
     ?>
     </main>
     
